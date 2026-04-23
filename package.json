@@ -1,0 +1,18 @@
+{
+  "name": "agentic-soc-memory-store",
+  "version": "0.1.0",
+  "description": "Prefix-indexed markdown memory store for agentic SOC workflows",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "example": "node ./examples/basic.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
